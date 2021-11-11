@@ -19,7 +19,7 @@ specifiers:
   concurrently: ^5.3.0
   cross-env: ^7.0.3
   eslint: ^7.15.0
-  eslint-config-prettier: ^7.0.0
+  eslint-config-prettier: 8.3.0
   eslint-config-ts-react-important-stuff: ^3.0.0
   eslint-plugin-prettier: ^3.2.0
   identity-obj-proxy: ^3.0.0
@@ -63,9 +63,9 @@ devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
   eslint: 7.32.0
-  eslint-config-prettier: 7.2.0_eslint@7.32.0
+  eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-config-ts-react-important-stuff: 3.0.0_eslint@7.32.0
-  eslint-plugin-prettier: 3.4.1_40a809850d56c058be6293d24d97aa61
+  eslint-plugin-prettier: 3.4.1_5559632aa3c77deec3ae5c2ea6ed0f36
   identity-obj-proxy: 3.0.0
   jest: 26.6.3
   jest-cli: 26.6.3
@@ -3413,8 +3413,8 @@ packages:
     resolution: {integrity: sha512-CsV6QFsjNDTZTDEgE1XxhTKph4YJUh5XFMdsWv3p+9DuMyvfy40fsnZiwqXZHBVEUNMHf+zfPGk6s6b4fS9Erw==}
     dev: true
 
-  /eslint-config-prettier/7.2.0_eslint@7.32.0:
-    resolution: {integrity: sha512-rV4Qu0C3nfJKPOAhFujFxB7RMP+URFyQqqOZW9DMRD7ZDTFyjaIlETU3xzHELt++4ugC0+Jm084HQYkkJe+Ivg==}
+  /eslint-config-prettier/8.3.0_eslint@7.32.0:
+    resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -3460,7 +3460,7 @@ packages:
       language-tags: 1.0.5
     dev: true
 
-  /eslint-plugin-prettier/3.4.1_40a809850d56c058be6293d24d97aa61:
+  /eslint-plugin-prettier/3.4.1_5559632aa3c77deec3ae5c2ea6ed0f36:
     resolution: {integrity: sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -3472,7 +3472,7 @@ packages:
         optional: true
     dependencies:
       eslint: 7.32.0
-      eslint-config-prettier: 7.2.0_eslint@7.32.0
+      eslint-config-prettier: 8.3.0_eslint@7.32.0
       prettier: 2.4.0
       prettier-linter-helpers: 1.0.0
     dev: true
