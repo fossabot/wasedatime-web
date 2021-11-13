@@ -64,7 +64,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",
-    "@types/jest": "^26.0.24",
+    "@types/jest": "26.0.24",
     "@types/react": "^16.14.20",
     "@types/react-dom": "^16.9.14",
     "@types/systemjs": "^6.1.1",
